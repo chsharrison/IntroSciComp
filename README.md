@@ -1,7 +1,8 @@
 # IntroSciComp
 Repository for Introduction to Scientific Computing course
 
-Students, look here to gain access to and create new files in this repo:
+## New Students
+To gain access to and create new files in this repo:
 1. Create github account and stay logged into github
 2. Send Dr. Harrison your github username 
 3. Check your email that you used in creating your github account for an invite to IntroSciComp from chsharrison
