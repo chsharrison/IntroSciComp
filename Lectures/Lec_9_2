@@ -1,0 +1,31 @@
+Guest lecture by Tom Yamashita
+
+Agenda:
+
+Part 1 (1:50-2:50)
+R and Python (Tom)
+Learning outcomes: R is like python and you can do it! Prep for Gabler lecture on GLM next week
+
+Lecture: How Tom uses R
+- Linear regression and plotting in R
+- Redo Boston housing data regression between median housing price and number of rooms, compare results
+
+Break (2:50-3:10), bobcat picture
+
+Part II (3:10-4:30)
+GIS and python
+Learning outcomes: GIS is built on python, familiarity with GIS, if you know python you can do advanced things in ArcGIS
+
+Lecture by Tom (30 min)
+- What is GIS?
+- Different GIS software
+- ArcGIS, what is it good for? How does Tom use it in his research?
+- python 
+  - python 2 vs. python 3
+  - python in ArcGIS
+- model builder in ArcGIS 
+- outlook for the future of python and GIS
+
+Lab:
+create python 2.7 32-bit anacodna environment
+Open ArcGIS and see how python works with it
