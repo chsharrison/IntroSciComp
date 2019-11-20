@@ -13,7 +13,7 @@ Tutorials:
   R 
   https://swirlstats.com/
 
-  A very quick intro:
+  A very quick python intro:
   http://123.physics.ucdavis.edu/week_8_files/Python.pdf
   
   Scientific python lecture notes
@@ -50,7 +50,8 @@ Machine Learning:
   https://keras.io/
 
 Symbolic math in python:
-https://www.sympy.org/en/index.html
+  https://www.sympy.org/en/index.html
+  https://docs.sympy.org/latest/tutorial/
 
 Python and GIS:
 
