@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {./Picture/} }
+
+\title{Statistical analysis of allelopathy bioassay}
+\author{Emily A Mullins }
+\date{November 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Abstract}
+The Tamaulipan thorn-forest is one of the most biodiverse regions in North America and has been affected by extensive deforestation for agriculture, grazing, and urban development, resulting in a loss of over 95 percent of the original habitat. Most restoration and reforestation efforts occur in abandoned fields frequently invaded by African grasses which hinder restoration efforts. The “novel weapons” hypothesis suggests that some invasive species are very successful due to allelopathic compounds that native species are not adapted to tolerate. It is possible that this effect can be reciprocal, the “homeland security” hypothesis proposes that invasive species may be susceptible to allelochemicals produced by native species.\newline 
+To identify potentially allelopathic native plants, field surveys and laboratory bioassays were performed. Aqueous extracts and dilutions were prepared from dried leaf material of native plants. Extracts from several of these species slowed germination rates up to 78 percent and reduced seedling elongation by up to 47mm in bioassay experiments. Statistical analysis needs to be performed to determine if there is significant variation between the treatments. It is imperative to choose the appropriate statistical tests based on the normality of the data and the experimental design. ANOVA, ANCOVA, and PERMANOVA will be thoroughly explored to determine which tests are appropriate for data analysis. Subsequent post-hoc testing well be determined based on the statistical method used. 
+
+\section{Introduction}
+ The Tamaulipan thorn forest encompasses parts of the Gulf coast plain in northeastern Mexico and southeastern Texas and the study region is in Cameron county, Texas. The thorn forest biome is incredibly diverse due to the location and sub-tropical climate which allow for survival of both temperate and tropical species. Over 1850 plant species can be found in this region, including several wide spread invasive, exotic grasses (Smith et al., 2009). Many of the species belong to the fabaceae family. \newline 
+ The floodplain along the Rio Grande was once a continuous old growth thorn forest but is now highly fragmented by agriculture and urbanization. Within plots of old growth forest, the presence of invasive grass is very low despite adjacent plots having a high prevalence of invasive grasses. This suggests that there is something about the old growth forests that protects against invasion. \newline
+ The “novel weapons” hypothesis, proposed by Callaway and Ridenour (2004) suggests that some plant species are able to become invasive because they produce biochemicals that are inhibitory to plants and soil biota that did not coevolve with the plant, and that these same biochemicals have little to no inhibitory effect on other species in their native range. Cummings et al. (2012) proposed the “homeland security” hypothesis which suggests that a similar effect to that seen in the novel weapons theory could be at play in intact ecosystems, allowing them to resist invasion because novel species will be intolerant of the allelochemicals produced by the native plants. Cummings et al. (2012) point out that many plants in the Fabaceae family produce allelopathic chemicals and found that there was a lower presence of an invasive C4 grass under these species, which suggests that allelochemicals from the legumes are suppressing the growth of the grass. \newline
+ Further research examining legume and non-legume species concluded that leaf litter of some species can benefit the grass, calling attention to the necessity for screening prior to implementation. There are many species from the Fabaceae family in the Tamaulipan thorn forest, due to this, it is very possible that allelopathy could be what allows undisturbed thorn forest to resist invasion. Studies to determine allelopathic species usually begin by running petri dish bioassays on lettuce seedlings using aqueous leachates of suspected allelopathic species. In this study, 11 species were tested for their ability to reduce lettuce seedling growth and germination. Statistical analysis will be performed to determine which species and concentrations exhibit allelopathy.
+
+
+\section{Methods}
+Research Questions: \newline
+1) Is my data normally distributed? \newline
+2) What type of statistical analysis needs to be performed to determine if there is significant variation between treatments?\newline
+3) What is the appropriate post-hoc test to perform to determine which treatments are significantly different from the control? \newline
+ \newline  
+To answer question one, data sets will be loaded into python and examined for normality. To do this, a generalized linear model will be made for each parameter and the normality of the residuals will be determined by making a histogram of the residuals and a Q-Q plot
+\newline
+\includegraphics[width=5cm, height=4cm]{Picture/Rplot14.png} 
+\includegraphics[width=6cm, height=5cm]{Picture/download.png} \newline  
+\newline
+Question two will be addressed once the normality of the data has been established. I will research in depth which tests are best for my experimental design and the spread of the data by looking into the assumptions and methodology of each test. Once the appropriate test has been chosen I will find the correct packages to use to perform the testing. 
+Question three will depend on the statistical significance of the initial test. If there is a statistically significant difference among the means of the treatments post-hoc testing will be performed to determine which treatments are significantly different from the control. Which post-hoc test is used will be depend on the statistical test used.
+\section{Timeline}
+
+11/12/2019: Load data into R, Make histograms of Data, Make Linear Regressions, Make Histograms of Residuals
+\newline
+11/14/2019: Make Q-Q plots, Determine which tests have the appropriate assumptions, Find packages and read documentation about the testing. Run proper test
+\newline
+11/19/2019: Determine proper post-hoc testing, Generate Figures and/or Tables to display findings
+\newline
+11/21/2019: Begin making presentation and writing report *continue this process until complete*
+\newline 
+12/05/2019: Final Presentation loaded onto GitHub before class
+\section{References}
+Callaway, Ragan M., and Wendy M. Ridenour. 2004. “Novel Weapons: Invasive Success and the Evolution of Increased Competitive Ability.” Frontiers in Ecology and the Environment 2 (8): 436–43. https://doi.org/10.1890/1540-9295(2004)002[0436:NWISAT]2.0.CO;2.\newline 
+Cummings, Justin A., Ingrid M. Parker, and Gregory S. Gilbert. 2012. “Allelopathy: A Tool for Weed Management in Forest Restoration.” Plant Ecology 213 (12): 1975–89. https://doi.org/10.1007/s11258-012-0154-x.\newline 
+Smith, Forrest S, John Lloyd-Reilley, and EIllain R Ocumpaugh. 2009. “South Texas Natives: A Collaborative Regional Effort to Meet Restoration Needs in South Texas.” Native Plants Journal 11 (3): 252–68.
+
+
+\end{document}
